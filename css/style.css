@@ -1,5 +1,7 @@
 :root {
-
+ --primary-header-color: #212121;
+ --second-header-color: #757575;
+ --acent-color: #2196F3;
 }
 
 /* UNIERSAL CLASSES */
@@ -9,6 +11,13 @@
 }
 .list {
     list-style: none;
+}
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    background-color: #FFFFFF
 }
 
 .visually-hidden {
@@ -31,21 +40,17 @@
 /* HEADER */
 
 .header-logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.20;
-letter-spacing: 0.03em;
 color: #000000
 }
 .span-logo {
    color:  #2196F3;
 }
 .header-link {
-font-family: 'Roboto';
 font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
 }
@@ -54,10 +59,7 @@ color: #212121;
     color: #2196F3;
 }
 .header-mail{
-font-family: 'Roboto';
 font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
@@ -66,10 +68,7 @@ color: #757575;
     color: #2196F3;
 }
 .header-tel{
-    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
     }
@@ -83,7 +82,6 @@ color: #757575;
 background: #2F303A;
 }
 .hero-title {
-font-family: 'Roboto';
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -93,117 +91,95 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .hero-btn {
-font-family: 'Roboto';
+font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-background-color: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;;
+}
+.hero-btn:focus,
+.hero-btn:hover {
+background-color: #2196F3
 }
 
 /* BENEFITS */
 
 .benefits-after-title {
-font-family: 'Roboto';
 font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
 }
 
 .benefits-text {
-font-family: 'Roboto';
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 color: #757575;
 }
 .about-work-title {
-font-family: 'Roboto';
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
-letter-spacing: 0.03em;
 color: #212121;
 }
 
 /* TEAM */
+.team {
+    background-color: #F5F4FA;;
+}
 .team-title {
-font-family: 'Roboto';
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
-letter-spacing: 0.03em;
 color: #212121;
 }
 .team-after-title {
- font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
 color: #212121;
 }
 .team-info {
-    font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
     color: #757575
 }
 
 /* FOOTER */
+.address {
+    font-style: normal;
+}
 
 .footer{
     background-color: #2F303A;
 }
 .contacts-address {
-font-family: 'Roboto';
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
+font-style: normal;
 color: #FFFFFF;
 }
 .contacts-link {
-font-family: 'Roboto';
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
 /* PORTFOLIO */
 .example-btn {
-font-family: 'Roboto';
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
 color: #212121;
 cursor: pointer;
+border-radius: 4px;
 }
 .example-btn:hover,
 .example-btn:focus{
 background: #2196F3;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
 }
 
 .example-after-title {
-font-family: 'Roboto';
 font-weight: 700;
 font-size: 18px;
 line-height: 2.0;
@@ -211,10 +187,8 @@ letter-spacing: 0.06em;
 color: #212121;
 }
 .example-text {
-font-family: 'Roboto';
 font-size: 16px;
 line-height: 1.88;
-letter-spacing: 0.03em;
 color: #757575;
 }
 /* FOOTER PORTFOLIO */
