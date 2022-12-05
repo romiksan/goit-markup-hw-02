@@ -200,11 +200,12 @@ color: var(--primary-header-color)
     font-size: 16px;
     line-height: 1.62;
     cursor: pointer;
-    color: var(--primary-white-color)
+    color: var(--primary-header-color)
 }
 
 .example-btn:hover,
 .example-btn:focus{
+color: var(--primary-white-color);
 background-color: var(--acent-color)
 }
 
